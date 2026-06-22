@@ -16,11 +16,10 @@ import os
 # ──────────────────────────────────────────────
 st.set_page_config(
     page_title="Acidentes PRF — Brasil",
-    page_icon="🚗",
     layout="wide"
 )
 
-st.title("🚗 Análise de Acidentes em Rodovias Federais do Brasil")
+st.title(" Análise de Acidentes em Rodovias Federais do Brasil")
 st.markdown(
     "Dados abertos da **Polícia Rodoviária Federal (PRF)**. "
     "Use os filtros na barra lateral para explorar os padrões de acidentes."
@@ -245,7 +244,7 @@ if len(df) == 0:
 # ──────────────────────────────────────────────
 # 3. MÉTRICAS RESUMO
 # ──────────────────────────────────────────────
-st.subheader("📊 Resumo Geral")
+st.subheader("Resumo Geral")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 col1.metric("Total de Acidentes", f"{len(df):,.0f}")
