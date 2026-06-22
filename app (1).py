@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-st.set_page_config(page_title="Acidentes PRF - Brasil", page_icon="🚗", layout="wide")
-st.title("🚗 Análise de Acidentes em Rodovias Federais do Brasil")
+st.set_page_config(page_title="Acidentes PRF - Brasil", layout="wide")
+st.title("Análise de Acidentes em Rodovias Federais do Brasil")
 st.markdown("Dados abertos da **Polícia Rodoviária Federal (PRF)**. Use os filtros na barra lateral para explorar os padrões de acidentes.")
 
 
