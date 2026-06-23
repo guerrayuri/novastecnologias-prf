@@ -1,0 +1,14 @@
+[data-testid="stMetric"] {
+    background: #111827;
+    border: 1px solid #1F2937;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #9CA3AF !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #FFFFFF !important;
+}
